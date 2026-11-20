@@ -29,11 +29,32 @@ const Home = () => (
         </div>
 
         <div className="flex justify-center md:justify-start space-x-5 pt-3 text-gray-600 text-xl">
-          <i className="fa-solid fa-house hover:text-red-500 cursor-pointer"></i>
-          <i className="fa-brands fa-facebook hover:text-blue-500 cursor-pointer"></i>
-          <i className="fa-brands fa-x-twitter hover:text-black cursor-pointer"></i>
-          <i className="fa-brands fa-instagram hover:text-pink-500 cursor-pointer"></i>
-        </div>
+  <a
+    href="https://github.com/Praj1ta"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="GitHub"
+    className="hover:text-black"
+  >
+    <i className="fa-brands fa-github"></i>
+  </a>
+  <a
+    href="https://www.linkedin.com/in/Prajita Bhattarai"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="LinkedIn"
+    className="hover:text-blue-600"
+  >
+    <i className="fa-brands fa-linkedin"></i>
+  </a>
+  <a
+    href="mailto:prajubhattarai2@gmail.com"
+    aria-label="Email"
+    className="hover:text-red-500"
+  >
+    <i className="fa-solid fa-envelope"></i>
+  </a>
+</div>
       </div>
 
       <div className="flex flex-col items-center mt-10 md:mt-0">

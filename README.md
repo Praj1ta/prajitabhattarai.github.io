@@ -1,12 +1,58 @@
-# React + Vite
+# Prajita Bhattarai | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website of **Prajita Bhattarai**, a BSc CSIT student from Nepal who builds web projects and is interested in Computer Science, programming, and data.
 
-Currently, two official plugins are available:
+**Live site:** https://prajitabhattarai.com.np
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About this project
 
-## Expanding the ESLint configuration
+A responsive, single-page portfolio built with React. It introduces me, lists my skills, shows my projects, and has a working contact form.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Sections
+
+- **Home:** introduction and social links
+- **About:** a short bio
+- **Skills:** HTML, CSS, JavaScript, React, Tailwind CSS, C, C++
+- **Projects:** Digital Clock, Calculator, and this portfolio
+- **Services:** what I can build
+- **Contact:** contact form (sends messages to my email) and email link
+
+## Built with
+
+- [React](https://react.dev/) 19
+- [Vite](https://vite.dev/) 7
+- [Tailwind CSS](https://tailwindcss.com/) 4
+- [Font Awesome](https://fontawesome.com/) icons
+- [Formspree](https://formspree.io/) for the contact form
+- Hosted on GitHub Pages with a custom domain
+
+## Run it locally
+
+You need **Node.js 20.19 or newer** (or 22.12+), because Vite 7 requires it.
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Praj1ta/prajitabhattarai.github.io.git
+
+# 2. Go into the folder
+cd prajitabhattarai.github.io
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+```
+
+Then open the local link shown in the terminal (usually `http://localhost:5173`).
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+## Contact
+
+- Email: prajubhattarai2@gmail.com
+- GitHub: [@Praj1ta](https://github.com/Praj1ta)
