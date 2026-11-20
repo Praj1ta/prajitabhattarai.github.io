@@ -12,28 +12,35 @@ const Contact = () => (
       <div className=" flex flex-col md:flex-row justify-center items-start">
     <div className="md:w-1/2 w-full">
      
-      <form action="">
-        <input
-          className="border border-gray-300 rounded-md w-full px-4 py-2 h-12 mb-4"
-          type="text"
-          placeholder="Name"
-        />
-        <input
-          className="border border-gray-300 rounded-md w-full px-4 py-2 h-12 mb-4"
-          type="email"
-          placeholder="Email address"
-        />
-        <textarea
-          rows={6}
-          className="border border-gray-300 rounded-md w-full px-4 py-2 mb-4"
-          placeholder="Message"
-        />
-        <div className="space-x-5 ">
-      <PrimaryButton label="Send Message" />
-      <SecondaryButton label="Hire me"/>
-
-    </div>
-      </form>
+      <form action="https://formspree.io/f/xqpqlrly" method="POST">
+  <input
+    className="border border-gray-300 rounded-md w-full px-4 py-2 h-12 mb-4"
+    type="text"
+    name="name"
+    placeholder="Name"
+    required
+  />
+  <input
+    className="border border-gray-300 rounded-md w-full px-4 py-2 h-12 mb-4"
+    type="email"
+    name="email"
+    placeholder="Email address"
+    required
+  />
+  <textarea
+    rows={6}
+    className="border border-gray-300 rounded-md w-full px-4 py-2 mb-4"
+    name="message"
+    placeholder="Message"
+    required
+  />
+  <button
+    type="submit"
+    className="bg-black text-white px-6 py-2 rounded-full font-medium hover:bg-red-600 transition-colors duration-200"
+  >
+    Send Message
+  </button>
+</form>
     </div>
 
  
