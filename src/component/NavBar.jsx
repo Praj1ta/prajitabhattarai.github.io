@@ -12,8 +12,7 @@ const NavBar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 w-full">
-      <div className="flex justify-between items-center px-6 md:px-20 py-4">
+<nav className="sticky top-0 z-50 shadow-md bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 w-full">      <div className="flex justify-between items-center px-6 md:px-20 py-4">
         {/* Logo */}
         <p className="text-xl font-bold text-gray-800">
           <span className="text-4xl">P</span>rajita
