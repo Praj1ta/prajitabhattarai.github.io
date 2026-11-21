@@ -43,6 +43,24 @@ const Skill = () => (
         <div>
           <img
             className="w-20 h-20 hover:scale-110 transition-transform duration-300"
+            src="/python.png"
+            alt="PYTHON"
+          />
+          <p className="mt-3 font-medium text-gray-700 pl-4">PYTHON</p>
+        </div>
+
+        <div>
+          <img
+            className="w-20 h-20 hover:scale-110 transition-transform duration-300"
+            src="/django.png"
+            alt="DJANGO"
+          />
+          <p className="mt-3 font-medium text-gray-700 pl-4">DJANGO</p>
+        </div>
+
+        <div>
+          <img
+            className="w-20 h-20 hover:scale-110 transition-transform duration-300"
             src="/React.png"
             alt="REACT"
           />
@@ -56,15 +74,6 @@ const Skill = () => (
             alt="TAILWIND_CSS"
           />
           <p className="mt-3 font-medium text-gray-700">TAILWIND</p>
-        </div>
-
-        <div>
-          <img
-            className="w-20 h-20 hover:scale-110 transition-transform duration-300"
-            src="/c++.png"
-            alt="c++"
-          />
-          <p className="mt-3 font-medium text-gray-700 pl-7">C++</p>
         </div>
 
         <div>
