@@ -5,7 +5,7 @@ const links = [
   { href: "#about", label: "About Me" },
   { href: "#skill", label: "Skill" },
   { href: "#projects", label: "Projects" },
-  { href: "#services", label: "Services" },
+  { href: "#education", label: "Education" },
 ];
 
 const NavBar = () => {
