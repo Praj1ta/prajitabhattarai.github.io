@@ -1,94 +1,38 @@
-
+const skills = [
+  { name: "HTML", icon: "/html.png" },
+  { name: "CSS", icon: "/css.png" },
+  { name: "JavaScript", icon: "/java_script.png" },
+  { name: "Python", icon: "/python.png" },
+  { name: "Django", icon: "/django.png" },
+  { name: "React", icon: "/React.png" },
+  { name: "Tailwind CSS", icon: "/tailwind.png" },
+  { name: "C", icon: "/c_programming.png" },
+];
 
 const Skill = () => (
-  <>
-   
+  <section
+    id="skill"
+    className="px-6 md:px-12 lg:px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 min-h-screen py-16 rounded-xl"
+  >
+    <p className="text-center text-4xl md:text-6xl font-semibold text-gray-800 mb-16">
+      Skills
+    </p>
 
-    <div
-      id="skill"
-      className="px-6 md:px-12 lg:px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 min-h-screen p-8 md:p-16 rounded-xl"
-    >
-      <p className="text-center text-4xl md:text-6xl font-semibold text-gray-800 mb-12 pb-9">
-        Skills
-      </p>
-
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 place-items-center">
-        <div>
+    <div className="flex flex-wrap justify-center gap-x-10 gap-y-12 max-w-4xl mx-auto">
+      {skills.map((skill) => (
+        <div key={skill.name} className="flex flex-col items-center w-28">
           <img
-            className="w-20 h-20 hover:scale-110 transition-transform duration-300"
-            src="/html.png"
-            alt="HTML"
+            className="w-20 h-20 object-contain hover:scale-110 transition-transform duration-300"
+            src={skill.icon}
+            alt={skill.name}
           />
-          <p className="mt-3 font-medium text-gray-700 pl-4">HTML</p>
-        </div>
-
-        <div>
-          <img
-            className="w-20 h-20 hover:scale-110 transition-transform duration-300"
-            src="/css.png"
-            alt="CSS"
-          />
-          <p className="mt-3 font-medium text-gray-700 pl-7">CSS</p>
-        </div>
-
-        <div>
-          <img
-            className="w-20 h-20 hover:scale-110 transition-transform duration-300"
-            src="/java_script.png"
-            alt="JAVA_SCRIPT"
-          />
-          <p className="mt-3 font-medium text-gray-700 pr-1">JAVA SCRIPT</p>
-        </div>
-
-        <div>
-          <img
-            className="w-20 h-20 hover:scale-110 transition-transform duration-300"
-            src="/python.png"
-            alt="PYTHON"
-          />
-          <p className="mt-3 font-medium text-gray-700 pl-4">PYTHON</p>
-        </div>
-
-        <div>
-          <img
-            className="w-20 h-20 hover:scale-110 transition-transform duration-300"
-            src="/django.png"
-            alt="DJANGO"
-          />
-          <p className="mt-3 font-medium text-gray-700 pl-4">DJANGO</p>
-        </div>
-
-        <div>
-          <img
-            className="w-20 h-20 hover:scale-110 transition-transform duration-300"
-            src="/React.png"
-            alt="REACT"
-          />
-          <p className="mt-3 font-medium text-gray-700 pl-4">REACT</p>
-        </div>
-
-        <div>
-          <img
-            className="w-20 h-20 hover:scale-110 transition-transform duration-300"
-            src="/tailwind.png"
-            alt="TAILWIND_CSS"
-          />
-          <p className="mt-3 font-medium text-gray-700">TAILWIND</p>
-        </div>
-
-        <div>
-          <img
-            className="w-20 h-20 hover:scale-110 transition-transform duration-300"
-            src="/c_programming.png"
-            alt="c_programming"
-          />
-          <p className="mt-3 font-medium text-gray-700 pr-5">
-            C_Programming
+          <p className="mt-3 font-medium text-gray-700 text-center">
+            {skill.name}
           </p>
         </div>
-      </div>
+      ))}
     </div>
-  </>
+  </section>
 );
 
 export default Skill;
