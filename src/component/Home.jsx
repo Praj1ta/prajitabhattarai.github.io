@@ -7,9 +7,9 @@ const Home = () => (
     
     <main
       id="home"
-      className="px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 flex flex-col items-center justify-evenly min-h-screen md:flex-row md:space-y-0"
+      className="px-6 md:px-12 lg:px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 flex flex-col items-center justify-evenly min-h-screen py-16 md:py-0 md:flex-row md:space-y-0"
     >
-      <div className="mt-24 md:mt-36 space-y-5 text-center md:text-left">
+      <div className="mt-10 md:mt-36 space-y-5 text-center md:text-left">
         <p>
           <span className="text-4xl md:text-5xl text-gray-800 font-medium">
             Hey, This is

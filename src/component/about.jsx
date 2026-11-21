@@ -1,7 +1,7 @@
 const About = () => (
   <section
     id="about"
-    className="px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 min-h-screen p-8 md:p-16 rounded-xl"
+    className="px-6 md:px-12 lg:px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 min-h-screen p-8 md:p-16 rounded-xl"
   >
     <p className="text-center text-4xl md:text-6xl font-semibold text-gray-800 mb-12">
       About Me

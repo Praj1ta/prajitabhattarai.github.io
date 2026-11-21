@@ -5,7 +5,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 const Contact = () => (
   <div
     id="connect"
-    className="px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 min:h-screen p-8 gap-10"
+    className="px-6 md:px-12 lg:px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 min:h-screen p-8 gap-10"
   >
     <h1 className="text-center text-4xl md:text-6xl font-semibold text-gray-800 mb-12">
       Get in touch
@@ -44,7 +44,7 @@ const Contact = () => (
         </form>
       </div>
 
-      <div className="md:w-1/2 w-full space-y-6 pt-19 pl-32">
+      <div className="md:w-1/2 w-full space-y-6 mt-8 md:mt-0 md:pt-19 md:pl-32">
         <div className="flex items-center gap-4">
           <FontAwesomeIcon
             icon={faEnvelope}

@@ -37,7 +37,7 @@ const projects = [
 const Projects = () => (
   <section
     id="projects"
-    className="px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 min-h-screen md:p-16"
+    className="px-6 md:px-12 lg:px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 min-h-screen md:p-16"
   >
     <p className="text-center text-4xl md:text-6xl font-semibold text-gray-800 mb-12">
       My Projects

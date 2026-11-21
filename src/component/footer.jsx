@@ -1,5 +1,5 @@
 const Footer = () => (
-  <footer className="px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 text-gray-800">
+  <footer className="px-6 md:px-12 lg:px-[100px] bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 text-gray-800">
     <hr />
 
     <div className="flex p-5 justify-center">
